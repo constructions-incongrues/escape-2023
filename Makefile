@@ -12,7 +12,9 @@ ascii: gif
 clean:
 	rm -vf ./public/scenes/*/animation.gif ./var/*
 
-serve: ascii
+serve:
+	python3 -m http.server --directory ./public/scenes
 
 dev:
 	live-server ./public/scenes
+
