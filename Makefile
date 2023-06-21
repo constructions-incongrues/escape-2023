@@ -1,17 +1,18 @@
 gif:
-	for file in ./public/media/video/*.mp4; do \
-		test -f ./public/media/gif/$$(basename $$file .mp4).gif || ffmpeg -i $$file ./public/media/gif/$$(basename $$file .mp4).gif; \
+	mkdir -p ./var/
+	for file in ./media/video/*.mp4; do \
+		test -f ./var/$$(basename $$file .mp4).gif || ffmpeg -i $$file ./var/$$(basename $$file .mp4).gif; \
 	done
 
 ascii: gif
-	for file in ./public/media/gif/*.gif; do \
-			test -f ./public/media/ascii/$$(basename $$file) || ./bin/asciiplayer encode --out ./public/media/ascii/$$(basename $$file) $$file; \
+	for file in ./var/*.gif; do \
+			test -f ./public/scenes/$$(basename $$file .gif)/animation.gif || ./bin/asciiplayer encode --out ./public/scenes/$$(basename $$file .gif)/animation.gif $$file; \
 	done
 
 clean:
-	rm -vf ./public/media/ascii/* ./public/media/gif/*
+	rm -vf ./public/scenes/*/animation.gif ./var/*
 
 serve: ascii
 
 dev:
-	live-server ./public
+	live-server ./public/scenes
