@@ -19,5 +19,5 @@
 
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "root"
-	"postCreateCommand": "echo 'Exécuter la commande suivante pour démarrer un live-server de développement : make dev" 
+	"postCreateCommand": "echo \"Exécuter la commande suivante pour démarrer un live-server de développement : make dev\"" 
 }
