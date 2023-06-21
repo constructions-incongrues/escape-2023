@@ -12,8 +12,7 @@
 	// "features": {},
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// "forwardPorts": [8080],
-	"postCreateCommand": "live-server --port=8080 ./public"
+	// "forwardPorts": [],
 
 	// Configure tool-specific properties.
 	// "customizations": {},

@@ -12,3 +12,6 @@ clean:
 	rm -vf ./public/media/ascii/* ./public/media/gif/*
 
 serve: ascii
+
+dev:
+	live-server ./public
