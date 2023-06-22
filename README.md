@@ -4,7 +4,7 @@
 - Ouvrir un terminal et exécuter les commandes suivantes :
   ```sh
   cd Documents/escape-2023
-  make serve kiosk
+  make start
   ```
 
 ## Développement
