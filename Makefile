@@ -13,7 +13,7 @@ clean:
 	rm -vf ./public/scenes/*/animation.gif ./var/*
 
 serve:
-	pkill -f http.server
+	-pkill -f http.server
 	python3 -m http.server --directory ./public/scenes &
 
 dev:
