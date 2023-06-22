@@ -23,9 +23,9 @@ udev:
 	sudo udevadm control --reload
 
 kiosk:
-	DISPLAY=:0 chromium-browser --noerrdialogs --disable-infobars --kiosk http://localhost:8000/00/
+	DISPLAY=:0 chromium-browser --noerrdialogs --disable-infobars --incognito --kiosk http://127.0.0.1:8000/00/
 
 unclutter:
 	DISPLAY=:0 unclutter &
 
-start: serve kiosk unclutter
+start: udev serve kiosk unclutter
