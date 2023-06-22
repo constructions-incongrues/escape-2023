@@ -13,8 +13,14 @@ clean:
 	rm -vf ./public/scenes/*/animation.gif ./var/*
 
 serve:
-	python3 -m http.server --directory ./public/scenes
+	python3 -m http.server --directory ./public/scenes &
 
 dev:
 	live-server ./public/scenes
 
+udev:
+	cat ./etc/udev.rules | sudo tee /etc/udev/rules.d/00-escape-2023.rules
+	sudo udevadm control --reload
+
+kiosk:
+	DISPLAY=:0 chromium-browser --noerrdialogs --disable-infobars --kiosk http://localhost:8000/
