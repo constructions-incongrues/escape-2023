@@ -1,4 +1,4 @@
 ACTION=="add" \
 , ENV{DEVTYPE}=="disk" \
 , KERNEL=="sd*" \
-, RUN+="/bin/bash -c 'sudo -i -u pi DISPLAY=:0 wmctrl -c ESCAPE; sudo -i -u pi DISPLAY=:0 chromium-browser --app=http://192.168.1.35:8000/0$(ls /dev/sd{a,b,c,d} | wc -l)/'"
+, RUN+="/bin/bash -c 'sudo -i -u pi DISPLAY=:0 wmctrl -c ESCAPE; sudo -i -u pi DISPLAY=:0 chromium-browser --app=http://192.168.1.35:8000/0$(ls /dev/sd{a,b,c,d} | wc -l)/; mpg123 /home/pi/Documents/escape-2023/public/scenes/0$(ls /dev/sd{a,b,c,d} | wc -l)/audio.mp3'"
