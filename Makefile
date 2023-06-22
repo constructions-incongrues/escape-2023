@@ -23,4 +23,4 @@ udev:
 	sudo udevadm control --reload
 
 kiosk:
-	DISPLAY=:0 chromium-browser --noerrdialogs --disable-infobars --kiosk http://localhost:8000/
+	DISPLAY=:0 chromium-browser --noerrdialogs --disable-infobars --kiosk http://localhost:8000/00/
