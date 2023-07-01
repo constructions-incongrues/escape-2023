@@ -159,8 +159,10 @@ _-"   .       '  +  .              .        ,//////0\ | /00HHHHHHHMMMMM
 
 > Le mercenaire James, viens à ton renfort. 
 > Il décide de se rendre dans la salle informatique du vaisseau afin de ple hacker. 
-> Communique lui la commande informatique pour prendre le controle du système de pilotage. 
+> Communique lui la commande informatique pour prendre le controle du système de pilotage, et amorcer l'aterrisage sur 
 > sudo control spaceship Vandervecken
+
+** commande réinitalisation
 
 // Etape 6 
 
@@ -168,6 +170,13 @@ _-"   .       '  +  .              .        ,//////0\ | /00HHHHHHHMMMMM
 > Le retour sur votre planète est en cours. 
 
 > ** asci terrre
+
+> Crédits : 
+
+> Space Adventure 
+> Programmation : Vincent, Tristan, Johan 
+> Éditeur : Maison JOLU 
+> Inspiration : Un livre dont vous êtes le héros : Le mercenaire de l'espace  de Andrew Chapman (Gallimard Jeunesse - 1999)
 
  
 
