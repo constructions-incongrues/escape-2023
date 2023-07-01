@@ -147,11 +147,23 @@ _-"   .       '  +  .              .        ,//////0\ | /00HHHHHHHMMMMM
 // Étape 5 :
 
 > Te voilà introduit dans le Vandervecken, devant toi se trouve Cyrus. 
-> Souhaites tu l'affronter ? Si oui lance le dé d'attaque 
+> 1 : Lancer le dé d'attaque / 2 : Fuir
 
 > * chiffre qui s'affiche
 > Tu viens d'infliger X blessures à Cyrus. 
-> Cyrus répblique et te désarmes. Seul, dans l'impossibilité 
+> Cyrus répblique et te désarmes. 
+> Seul, dans l'impossibilité de l'affronter, tu demandes du renfort. 
+> Quel est le nom de ton partenaire ? 
+
+> Le mercenaire James, décide de se rendre dans la salle informatique du vaisseau afin de prendre son controle.
+> Communique lui la commande informatique pour hacker leurs système de pilotage. 
+> sudo control spaceship Vandervecken
+
+// Etape 6 
+
+> Bravo ! Vous avez désormais le controle du Vandervecken. 
+> ** asci terrre
+
  
 
                          
