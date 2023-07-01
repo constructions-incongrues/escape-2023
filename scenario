@@ -53,7 +53,8 @@ _-"   .       '  +  .              .        ,//////0\ | /00HHHHHHHMMMMM
        +         .        '   .    .  ////////000000000HHHHHHHHMMMMMMhs
 
 > Au-dessus de votre planète se dessine l'ombre inquiétante d'un vaisseau spatial. 
-> Quel est son nom ? 
+> Quel est son matricule ? 
+
 > 1 : X-Wing / 2 : NCC-1701-J / 3 : Vandervecken / 4 : Aloha-Oe / 5 : Cyrus 
 
 * Erreur 1 : pénalité 2 minutes / Erreur 2 : Game Over, retour au début)
@@ -86,13 +87,13 @@ _-"   .       '  +  .              .        ,//////0\ | /00HHHHHHHMMMMM
 ' :       :::'      :.      `::'      .:      `:::       : `
 
 > A son bord, le savant dément, se prépare à soumettre votre monde à ses effroyables expériences. 
-> Quel est le nom du savant dément ? 
+> Communique le nom du commandant, à ton équipe.
 > 
 
 
 // Ecran 5 
 
-> ll n'y a plus un instant à perdre : les autorités ont fait appel à la Guilde des Mercenaires de l'espace pour mettre un terme aux sombres machinations de Cyrus, et c'est VOUS qui avez été choisi pour mener à bien cette mission. 
+> ll n'y a plus un instant à perdre : les autorités ont fait appel à la Guilde des Mercenaires de l'espace pour mettre un terme aux sombres machinations de Cyrus, et c'est toi qui a été choisi pour mener à bien cette mission. 
 > Souhaites tu en faire partie  ? 
 > oui - non 
 
@@ -147,21 +148,25 @@ _-"   .       '  +  .              .        ,//////0\ | /00HHHHHHHMMMMM
 // Étape 5 :
 
 > Te voilà introduit dans le Vandervecken, devant toi se trouve Cyrus. 
+> Que souhaites tu faire ? 
 > 1 : Lancer le dé d'attaque / 2 : Fuir
 
 > * chiffre qui s'affiche
 > Tu viens d'infliger X blessures à Cyrus. 
 > Cyrus répblique et te désarmes. 
 > Seul, dans l'impossibilité de l'affronter, tu demandes du renfort. 
-> Quel est le nom de ton partenaire ? 
+> Qui décides tu d'appeler ? 
 
-> Le mercenaire James, décide de se rendre dans la salle informatique du vaisseau afin de prendre son controle.
-> Communique lui la commande informatique pour hacker leurs système de pilotage. 
+> Le mercenaire James, viens à ton renfort. 
+> Il décide de se rendre dans la salle informatique du vaisseau afin de ple hacker. 
+> Communique lui la commande informatique pour prendre le controle du système de pilotage. 
 > sudo control spaceship Vandervecken
 
 // Etape 6 
 
 > Bravo ! Vous avez désormais le controle du Vandervecken. 
+> Le retour sur votre planète est en cours. 
+
 > ** asci terrre
 
  
