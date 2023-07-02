@@ -90,20 +90,19 @@ _-"   .       '  +  .              .        ,//////0\ | /00HHHHHHHMMMMM
 
               .+.
           _.-//_\\-._
-        .'.-' XII '-.'.
-      /`.'*         *'.`\
-     / /*        /    *\ \
-    | ;        _/       ; |
-    | |IX     (_)    III| |
+        .'.-' XII '-.'.         
+      /`.'*         *'.`\       
+     / /*        /    *\ \      ll n'y a plus un instant à perdre :
+    | ;        _/       ; |     les autorités ont fait appel à la Guilde des Mercenaires de l'espace
+    | |IX     (_)    III| |     pour mettre un terme aux sombres machinations de Cyrus.
     | ;         \       ; |
-     \ \*        \    */ /
+     \ \*        \    */ /      Souhaites-tu intégrer la Guilde des Mercenaires ?
       \ '.*       \ *.'./
        '._'-.__VI_.-'_.'
           '-.,___,.-'
 
+> Oui / Non 
 
-> ll n'y a plus un instant à perdre : les autorités ont fait appel à la Guilde des Mercenaires de l'espace pour mettre un terme aux sombres machinations de Cyrus.
-> Souhaites-tu intégrer la Guilde des Mercenaires ?
 
 // Ecran 6 
 
@@ -135,27 +134,23 @@ _-"   .       '  +  .              .        ,//////0\ | /00HHHHHHHMMMMM
 
 // Étape 5 :
 
-> Tu arpentes la coursive et découvre deux portes. 
-> Quel porte décide tu d'ouvrir ? 
-> _phrase au choix qui valide)
-
       ______
    ,-' ;  ! `-.
   / :  !  :  . \
  |_ ;   __:  ;  |
  )| .  :)(.  !  |
- |"    (##)  _  |
- |  :  ;`'  (_) (
+ |"    (##)  _  |    Tu arpentes la coursive et découvre deux portes. 
+ |  :  ;`'  (_) (    Laquelle décide tu d'ouvrir ? 
  |  :  :  .     |
  )_ !  ,  ;  ;  |
  || .  .  :  :  |
  |" .  |  :  .  |
  |mt-2_;----.___|
 
-> La porte s'ouvre. 
-> Cyrus est aux commandes du vaisseau.
-> Que souhaites tu faire ? 
-> 1: Établir un dialogue | 2: Lancer un attaque | 3: Fuir
+> réponse au choix 
+
+> La porte s'ouvre, Cyrus est aux commandes de la console de pilotage.
+> Que souhaites tu faire :  1: Établir un dialogue | 2: Lancer un attaque 
 
 ** if 1 : Oxiodà µPol@xi LoioééUnD ! Cette discussion ne mène à rien. 
 ** if 2 : > Tu viens d'infliger des blessures à Cyrus. 
@@ -202,17 +197,14 @@ _-"   .       '  +  .              .        ,//////0\ | /00HHHHHHHMMMMM
              ___________
             '._==_==_=_.'
             .-\:      /-.
-           | (|:.     |) |
-            '-|:.     |-'
-              \::.    /
-               '::. .'
+           | (|:.     |) |   Félicitation !
+            '-|:.     |-'    Le vaisseau Vandervecken est sous votre controle.
+              \::.    /      Cyrus est neutralisé.
+               '::. .'       Commencer la procédure d'atterissage sur Saturne.
                  ) (
                _.' '._
               `"""""""`
-> Félcitation ! Le vaissea de Vandervecken est entre vos mains.
-> Procédure d'atterissage sur Saturne en cours. 
-
-> 
+ 
 
                                                                     ..;===+.
                                                                 .:=1984ii=+=
