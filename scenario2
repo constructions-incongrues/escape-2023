@@ -70,7 +70,7 @@ _-"   .       '  +  .              .        ,//////0\ | /00HHHHHHHMMMMM
            ;:     .:.  `;;. `--' .;;'  .:.     :;      À son bord, le savant dément, 
             ;.   .:|:.     `;;;;'     .:|:.   .;       se prépare à soumettre votre monde à ses effroyables expériences.    
              `;  `:|:'    .;;'`;;.    `:|:'  ;'        Découvre l'identité du commandant et communique son nom à ton équipage.
-              `;. `:'  .;;'.::::.`;;.  `:' .;'
+              `;. `:'  .;;'.::::.`;;.  `:' .;'         >
                 `;._.;;' .:`::::':. `;;._.;'
            .::::. `::   (:._.::._.:)   ::' .::::.
       .:::::'  `::.`:_.--.`:::::. .--._:'.::'  `:::::.
@@ -94,7 +94,7 @@ _-"   .       '  +  .              .        ,//////0\ | /00HHHHHHHMMMMM
     | |IX     (_)    III| |     pour mettre un terme aux sombres machinations de Cyrus.
     | ;         \       ; |
      \ \*        \    */ /      Souhaites-tu intégrer la Guilde des Mercenaires ?
-      \ '.*       \ *.'./
+      \ '.*       \ *.'./       >
        '._'-.__VI_.-'_.'
           '-.,___,.-'
 
@@ -127,6 +127,7 @@ _-"   .       '  +  .              .        ,//////0\ | /00HHHHHHHMMMMM
  Félicitation ! Tu as été promu "Mercenaire de l'espace".
  Tu vas devoir t'introduire dans le Vandervecken, un univers de pièges diaboliques, pour y affronter Cyrus et les créatures qui le protègent. 
  Acceptes-tu la mission ? 
+ >
 
 // Étape 5 : height 11
 
@@ -137,7 +138,7 @@ _-"   .       '  +  .              .        ,//////0\ | /00HHHHHHHMMMMM
  )| .  :)(.  !  |
  |"    (##)  _  |    Tu arpentes la coursive et découvre deux portes. 
  |  :  ;`'  (_) (    Laquelle décide tu d'ouvrir ? 
- |  :  :  .     |
+ |  :  :  .     |    >
  )_ !  ,  ;  ;  |
  || .  .  :  :  |
  |" .  |  :  .  |
@@ -163,7 +164,7 @@ _-"   .       '  +  .              .        ,//////0\ | /00HHHHHHHMMMMM
 ⠀⠀Il décide d'hacker le vaisseau.  ⢠⠾⢛⠒⠀⠀⠀⠀⠀⠀⠀⢸⡆⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣶⣄⡈⠓⢄⠠⡀⠀⠀⠀⣄⣷⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀Saisir la commande⠀:  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣿⣷⠀⠈⠱⡄⠑⣌⠆⠀⠀⡜⢻⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⡿⠳⡆⠐⢿⣆⠈⢿⠀⠀⡇⠘⡆⠀⠀⠀⠀⠀⠀
+⠀⠀>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⡿⠳⡆⠐⢿⣆⠈⢿⠀⠀⡇⠘⡆⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢿⣿⣷⡇⠀⠀⠈⢆⠈⠆⢸⠀⠀⢣⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⣿⣿⣿⣧⠀⠀⠈⢂⠀⡇⠀⠀⢨⠓⣄⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣸⣿⣿⣿⣦⣤⠖⡏⡸⠀⣀⡴⠋⠀⠈⠢⡀⠀⠀
