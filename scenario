@@ -16,15 +16,15 @@
    \ \_\ \_\\ \___,_\\ \___/ \ \____\\ \_\ \_\\ \__\\ \____/ \ \_\\ \____\
     \/_/\/_/ \/__,_ / \/__/   \/____/ \/_/\/_/ \/__/ \/___/   \/_/ \/____/
                                                                     v.1.34   
-> Sasir la commande "start" commencer à jouer.
-> start 
+
 
 ** Etape 2 
 
-> Bienvenue dans le jeu "Space Adventure". 
-> Comment t'appel tu ? 
+> Salut inconnu.e, soit le bienvenu dans le jeu Space Adventure.
+> Nous comptons sur ton courage, ta coopération et ta réfléxion pour avancer dans les différentes quêtes.
+> Si tu es prêt à jouer, communique moi ton prénom.
 >
-> Salut Jimmy, est tu prêt à jouer ? 
+> Jimmy, c'est à toi de jouer maintenant.
 > oui - non 
 
 ** Etape 3
@@ -56,7 +56,7 @@ _-"   .       '  +  .              .        ,//////0\ | /00HHHHHHHMMMMM
 > Identifier son matricule ? 
 
 > 1: X-Wing | 2: NCC-1701-J | 3: Vandervecken | 4: Aloha-Oe | 5: Cyrus 
->
+
 * Erreur 1 : 60 secondes / Erreur 2 : 120 secondes / Erreur 3 : Game Over, retour au début)
 
 // Etape 4
@@ -82,7 +82,7 @@ _-"   .       '  +  .              .        ,//////0\ | /00HHHHHHHMMMMM
 
 
 > À son bord, le savant dément, se prépare à soumettre votre monde à ses effroyables expériences. 
-> Découvre l'identité du commandant et communique la à ton équipage.
+> Découvre l'identité du commandant et communique son nom à ton équipage.
 > 
 
 
@@ -129,10 +129,15 @@ _-"   .       '  +  .              .        ,//////0\ | /00HHHHHHHMMMMM
  \__         '  `       ,     ,;;;;;/;;;;;'    .   /  \   / /~
  /___________\'  |`._______ ,;;;;;;/;;;;;;'_______ /   : \/'/'    
 
+> Tu as été promu "Mercenaire de l'espace".
 > Tu vas devoir t'introduire dans le Vandervecken, un univers de pièges diaboliques, pour y affronter Cyrus et les créatures qui le protègent. 
 > Acceptes-tu la mission ? 
 
 // Étape 5 :
+
+> Tu arpentes la coursive et découvre deux portes. 
+> Quel porte décide tu d'ouvrir ? 
+> _phrase au choix qui valide)
 
       ______
    ,-' ;  ! `-.
@@ -147,7 +152,7 @@ _-"   .       '  +  .              .        ,//////0\ | /00HHHHHHHMMMMM
  |" .  |  :  .  |
  |mt-2_;----.___|
 
-> Te voilà introduit dans le Vandervecken. 
+> La porte s'ouvre. 
 > Cyrus est aux commandes du vaisseau.
 > Que souhaites tu faire ? 
 > 1: Établir un dialogue | 2: Lancer un attaque | 3: Fuir
@@ -156,7 +161,7 @@ _-"   .       '  +  .              .        ,//////0\ | /00HHHHHHHMMMMM
 ** if 2 : Lance le dé d'attaque avec la commande "dice". 
 
 > Tu viens d'infliger X blessures à Cyrus. 
-> Cyrus répblique et te désarmes. 
+> Cyrus réplique avec et te désarmes. 
 > Seul, dans l'impossibilité de l'affronter, tu demandes du renfort. 
 > Qui décides tu d'appeler ? 
 
