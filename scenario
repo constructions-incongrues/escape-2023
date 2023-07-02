@@ -158,15 +158,14 @@ _-"   .       '  +  .              .        ,//////0\ | /00HHHHHHHMMMMM
 > 1: Établir un dialogue | 2: Lancer un attaque | 3: Fuir
 
 ** if 1 : Oxiodà µPol@xi LoioééUnD ! Cette discussion ne mène à rien. 
-** if 2 : Lance le dé d'attaque avec la commande "dice". 
+** if 2 : > Tu viens d'infliger des blessures à Cyrus. 
 
-> Tu viens d'infliger X blessures à Cyrus. 
-> Cyrus réplique avec et te désarmes. 
-> Seul, dans l'impossibilité de l'affronter, tu demandes du renfort. 
-> Qui décides tu d'appeler ? 
+> Il réplique et te désarme. 
+> Démunis; tu décides d'appeler du renfort.
+> Qui souhaites tu contacter ?
 
 // Etape 9
-> Le mercenaire James, viens à ton renfort. 
+> Le mercenaire James, arrive à ta rescousse.
 > Il décide de se rendre dans la salle informatique du vaisseau afin d'hacker la station de pilotage. 
 
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⡠⢤⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
@@ -194,7 +193,7 @@ _-"   .       '  +  .              .        ,//////0\ | /00HHHHHHHMMMMM
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠻⣿⣿⡄⠈⠻⣿⣿⢿⣛⣩⠤⠒⠉⠁⠀⠀⠀⠀⠀⠉⠒⢤⡀⠉⠁⠀⠀⠀⠀⠀⢀⡿⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⢿⣤⣤⠴⠟⠋⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠑⠤⠀⠀⠀⠀⠀⢩⠇⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-> Saisissez la commande de programmation pour amorcer un retour sur Saturne.  
+> Saisis la commande de programmation.  
 > sudo control spaceship Vandervecken
 
 ** commande réinitalisation
