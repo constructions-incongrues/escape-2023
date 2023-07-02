@@ -129,9 +129,8 @@ _-"   .       '  +  .              .        ,//////0\ | /00HHHHHHHMMMMM
  \__         '  `       ,     ,;;;;;/;;;;;'    .   /  \   / /~
  /___________\'  |`._______ ,;;;;;;/;;;;;;'_______ /   : \/'/'    
 
-> Mercenaire Jimmy, te voilà prêt à rejoindre les troupes pour affronter Cyrus. 
-> Tu vas devoir t'introduire dans le Vandervecken, un univers de pièges diaboliques, pour y affronter Cyrus et les créatures qui le protègent. Toi seul décide de la route à suivre, des risques à courir et des créatures à combattre. 
-
+> Tu vas devoir t'introduire dans le Vandervecken, un univers de pièges diaboliques, pour y affronter Cyrus et les créatures qui le protègent. 
+> Acceptes-tu la mission ? 
 
 // Étape 5 :
 
@@ -149,8 +148,12 @@ _-"   .       '  +  .              .        ,//////0\ | /00HHHHHHHMMMMM
  |mt-2_;----.___|
 
 > Te voilà introduit dans le Vandervecken. 
+> Cyrus est aux commandes du vaisseau.
 > Que souhaites tu faire ? 
-> 1 : Affronter Cyrus / 2 : Fuir
+> 1: Établir un dialogue | 2: Lancer un attaque | 3: Fuir
+
+** if 1 : Oxiodà µPol@xi LoioééUnD ! Cette discussion ne mène à rien. 
+** if 2 : Lance le dé d'attaque avec la commande "dice". 
 
 > Tu viens d'infliger X blessures à Cyrus. 
 > Cyrus répblique et te désarmes. 
