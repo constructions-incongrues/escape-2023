@@ -1,8 +1,9 @@
 from asciimatics.event import KeyboardEvent
-from asciimatics.effects import Stars
+from asciimatics.effects import Stars, Cycle, RandomNoise
 from asciimatics.exceptions import NextScene, ResizeScreenError
 from asciimatics.scene import Scene
 from asciimatics.screen import Screen
+from asciimatics.renderers import FigletText
 from frame import SpaceAdventureFrame
 import sys
 
@@ -12,10 +13,34 @@ def _unhandled_input(event):
     else:
         return event
 
+def noise(screen, text=None):
+    if text is None:
+        effects = [RandomNoise(screen)]
+    else:
+        effects = [RandomNoise(screen, signal=Rainbow(screen, FigletText(text)))]
 
+    return Scene(effects, 5)
+
+def title(screen):
+    effects = [
+        Cycle(
+            screen,
+            FigletText("SPACE", font='big'),
+            int(screen.height / 2 - 8)),
+        Cycle(
+            screen,
+            FigletText("ADVENTURE", font='big'),
+            int(screen.height / 2 + 3)),
+        Stars(screen, 200)
+    ]
+
+    return Scene(effects, -1)
 
 def run(screen, scene):
     scenes = [
+        # title
+        title(screen),
+
         # 01
         Scene([
             SpaceAdventureFrame(
@@ -32,6 +57,8 @@ Je vois que tu es prêt à relever ce défi.
             ),
             Stars(screen, 200)
         ]),
+
+        noise(screen),
 
         Scene([
             SpaceAdventureFrame(
@@ -280,6 +307,16 @@ voyage à travers les étoiles.
             SpaceAdventureFrame(
                 screen,
                 image="""
+    ___________
+   '._==_==_=_.'
+   .-\:      /-.
+  | (|:.     |) |
+   '-|:.     |-'
+     \::.    /
+      '::. .'
+        ) (
+      _.' '._.
+     `"""""""`
                 """,
                 message="""
 Félicitation !
