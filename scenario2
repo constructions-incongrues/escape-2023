@@ -73,7 +73,7 @@ _-"   .       '  +  .              .        ,//////0\ | /00HHHHHHHMMMMM
             ;.   .:|:.     `;;;;'     .:|:.   .;       se prépare à soumettre votre monde à ses effroyables expériences.    
              `;  `:|:'    .;;'`;;.    `:|:'  ;'        Découvre l'identité du commandant et communique son nom à ton équipage.
               `;. `:'  .;;'.::::.`;;.  `:' .;'         >
-                `;._.;;' .:`::::':. `;;._.;'
+                `;._.;;' .:`::::':. `;;._.;'           
            .::::. `::   (:._.::._.:)   ::' .::::.
       .:::::'  `::.`:_.--.`:::::. .--._:'.::'  `:::::.
     .::'     `:.    `::-.:::"""":::.-::'   `::      `::.
@@ -85,7 +85,7 @@ _-"   .       '  +  .              .        ,//////0\ | /00HHHHHHHMMMMM
 
 
 
-// Ecran 5 . height 11
+// Ecran 5 . height 11 https://asciinema.org/a/26115
 
               .+.
           _.-//_\\-._
@@ -94,9 +94,9 @@ _-"   .       '  +  .              .        ,//////0\ | /00HHHHHHHMMMMM
      / /*        /    *\ \      ll n'y a plus un instant à perdre :
     | ;        _/       ; |     les autorités ont fait appel à la Guilde des Mercenaires de l'espace
     | |IX     (_)    III| |     pour mettre un terme aux sombres machinations de Cyrus.
-    | ;         \       ; |
-     \ \*        \    */ /      Souhaites-tu intégrer la Guilde des Mercenaires ?
-      \ '.*       \ *.'./       >
+    | ;         \       ; |     Souhaites-tu intégrer la Guilde des Mercenaires ?
+     \ \*        \    */ /      >
+      \ '.*       \ *.'./       
        '._'-.__VI_.-'_.'
           '-.,___,.-'
 
