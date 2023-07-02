@@ -53,11 +53,11 @@ _-"   .       '  +  .              .        ,//////0\ | /00HHHHHHHMMMMM
        +         .        '   .    .  ////////000000000HHHHHHHHMMMMMMhs
 
 > Au-dessus de votre planète se dessine l'ombre inquiétante d'un vaisseau spatial. 
-> Quel est son matricule ? 
+> Identifier son matricule ? 
 
-> 1 : X-Wing - 2 : NCC-1701-J - 3 : Vandervecken - 4 : Aloha-Oe - 5 : Cyrus 
-
-* Erreur 1 : pénalité 2 minutes / Erreur 2 : Game Over, retour au début)
+> 1: X-Wing | 2: NCC-1701-J | 3: Vandervecken | 4: Aloha-Oe | 5: Cyrus 
+>
+* Erreur 1 : 60 secondes / Erreur 2 : 120 secondes / Erreur 3 : Game Over, retour au début)
 
 // Etape 4
 
@@ -79,38 +79,31 @@ _-"   .       '  +  .              .        ,//////0\ | /00HHHHHHHMMMMM
   :::      .:'::.     \( `;;;..;;;' )/     .::::       :::
   ::  :  .:':.  `::.   \            /   .::'  .:     .  ::
   :  ::  .   :     `::.              .::'     :  :   ::  :
- .:  :    `.::.       `:.          .:'       .::.'    :  :.
-::  :  :   : :::.       `:.      .:'       .::: :   :  :  ::
-::  :        :' `:.       :.    .:       .:' `:        :  ::
-:::     :   ::    `:.      :.  .:      .:'    ::   :     :::
-' :       :::'      :.      `::'      .:      `:::       : `
 
-> A son bord, le savant dément, se prépare à soumettre votre monde à ses effroyables expériences. 
-> Communique le nom du savant, à ton équipage.
+
+> À son bord, le savant dément, se prépare à soumettre votre monde à ses effroyables expériences. 
+> Découvre l'identité du commandant et communique la à ton équipage.
 > 
 
 
 // Ecran 5 
 
-+8-=-=-=-=-=-8+
- | ,.-'"'-., |
- |/         \|
- |\:.     .:/|
- | \:::::::/ |
- |  \:::::/  |
- |   \:::/   |
- |    ):(    |
- |   / . \   |
- |  /  .  \  |
- | /   .   \ |
- |/   .:.   \|
- |\.:::::::./|
- | '--___--' |
-+8-=-=-=-=-=-8+
+              .+.
+          _.-//_\\-._
+        .'.-' XII '-.'.
+      /`.'*         *'.`\
+     / /*        /    *\ \
+    | ;        _/       ; |
+    | |IX     (_)    III| |
+    | ;         \       ; |
+     \ \*        \    */ /
+      \ '.*       \ *.'./
+       '._'-.__VI_.-'_.'
+          '-.,___,.-'
 
-> ll n'y a plus un instant à perdre : les autorités ont fait appel à la Guilde des Mercenaires de l'espace pour mettre un terme aux sombres machinations de Cyrus, et c'est toi qui a été choisi pour mener à bien cette mission. 
-> Souhaites tu rejoindre la Guilde des Mercenaires de l'espace  ? 
->  
+
+> ll n'y a plus un instant à perdre : les autorités ont fait appel à la Guilde des Mercenaires de l'espace pour mettre un terme aux sombres machinations de Cyrus.
+> Souhaites-tu intégrer la Guilde des Mercenaires ?
 
 // Ecran 6 
 
