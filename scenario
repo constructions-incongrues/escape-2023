@@ -145,15 +145,15 @@ _-"   .       '  +  .              .        ,//////0\ | /00HHHHHHHMMMMM
  )_ !  ,  ;  ;  |
  || .  .  :  :  |
  |" .  |  :  .  |
- |mt-2_;----.___|
+ |_____;----.___|
 
 > réponse au choix 
 
 > La porte s'ouvre, Cyrus est aux commandes de la console de pilotage.
 > Que souhaites tu faire :  1: Établir un dialogue | 2: Lancer un attaque 
 
-** if 1 : Oxiodà µPol@xi LoioééUnD ! Cette discussion ne mène à rien. 
-** if 2 : > Tu viens d'infliger des blessures à Cyrus. 
+** if 1 : Oxiodà µPol@xi LoioééUnD !  
+** if 2 : Tu viens d'infliger des blessures à Cyrus. 
 
 > Il réplique et te désarme. 
 > Démunis; tu décides d'appeler du renfort.
