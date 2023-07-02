@@ -1,9 +1,9 @@
 from asciimatics.event import KeyboardEvent
-from asciimatics.effects import Stars, Cycle, RandomNoise
+from asciimatics.effects import Stars, Cycle, RandomNoise, Julia
 from asciimatics.exceptions import NextScene, ResizeScreenError
 from asciimatics.scene import Scene
 from asciimatics.screen import Screen
-from asciimatics.renderers import FigletText
+from asciimatics.renderers import FigletText, Rainbow
 from frame import SpaceAdventureFrame
 import sys
 
@@ -13,13 +13,19 @@ def _unhandled_input(event):
     else:
         return event
 
-def noise(screen, text=None):
+def julia(screen, duration=5):
+    effects = [Julia(screen)]
+
+    return Scene(effects, duration)
+
+
+def noise(screen, text=None, duration=5):
     if text is None:
         effects = [RandomNoise(screen)]
     else:
         effects = [RandomNoise(screen, signal=Rainbow(screen, FigletText(text)))]
 
-    return Scene(effects, 5)
+    return Scene(effects, duration)
 
 def title(screen):
     effects = [
@@ -39,6 +45,7 @@ def title(screen):
 def run(screen, scene):
     scenes = [
         # title
+        julia(screen),
         title(screen),
 
         # 01
@@ -326,6 +333,40 @@ Votre mission est désormais terminé.
 Prochaine mission : Explorer Saturne
 
                                 """,
+                answers=True
+            ),
+            Stars(screen, 200)
+        ]),
+
+        # 07
+        Scene([
+            SpaceAdventureFrame(
+                screen,
+                image="""
+          .                                            .
+     *   .                  .              .        .   *          .
+  .         .                     .       .           .      .        .
+        o                             .                   .
+         .              .                .
+          0     .                  Programmation: Tristan
+                 .          .      Création : Maison JOLU            ,                ,    ,
+ .          \          .           Un livre dont vous êtes le héros
+      .      \   ,                 Le mercenaire de l'espace de Andrew Chapman
+   .          o     .              (Gallimard Jeunesse - 1999)        .                   .            .
+     .         \                 ,             .                .
+               #\##\#      .                              .        .
+             #  #O##\###                .                        .
+   .        #*#  #\##\###                       .                     ,
+        .   ##*#  #\##\##               .                     .
+      .      ##*#  #1984#         .                             ,       .
+          .     *#  #\#     .                    .             .          ,
+                      \          .                         .
+____^/\___^--____/\____O______________/\/\---/\___________---______________
+   /\^   ^  ^    ^                  ^^ ^  '\ ^          ^       ---
+         --           -            --  -      -         ---  __       ^
+   --  __                      ___--  ^  ^                         --  __
+                """,
+                message="",
                 answers=True
             ),
             Stars(screen, 200)
