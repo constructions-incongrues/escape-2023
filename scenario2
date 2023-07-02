@@ -7,7 +7,7 @@
    \ `\____\\ \ ,__/\ \__/.\_\\ \____\\ \____\                            
     \/_____/ \ \ \/  \/__/\/_/ \/____/ \/____/                            
               \ \_\                                                       
-               \/_/                                                       
+               \/_/
  ______       __                            __                            
 /\  _  \     /\ \                          /\ \__                         
 \ \ \L\ \    \_\ \   __  __     __     ___ \ \ ,_\  __  __   _ __    __   
@@ -30,12 +30,12 @@
 https://asciinema.org/a/26114
 
 ** Etape 3 / height 21 https://asciinema.org/a/20055
-                                                                 
-     .  . '    .                                             
-      '   .            . '            .                +           
+
+     .  . '    .
+      '   .            . '            .                +
               `                          '    . '
         .                         ,'`.                         .
-   .                  .."    _.-;'    `.              .    
+   .                  .."    _.-;'    `.              .
               _.-"`.##%"_.--" ,'        `.           "#"     ___,,od000
            ,'"-_ _.-.--"\   ,'            `-_       '%#%',,/////00000HH
          ,'     |_.'     )`/-     __..--""`-_`-._    J L/////00000HHHHM
@@ -55,9 +55,9 @@ _-"   .       '  +  .              .        ,//////0\ | /00HHHHHHHMMMMM
        +         .        '   .    .  ////////000000000HHHHHHHHMMMMMMhs
 
 > Au-dessus de votre planète se dessine l'ombre inquiétante d'un vaisseau spatial. 
-> Identifier son matricule ? 
+> Identifier son matricule ?
 
-> 1: X-Wing | 2: NCC-1701-J | 3: Vandervecken | 4: Aloha-Oe | 5: Cyrus 
+> 1: X-Wing | 2: NCC-1701-J | 3: Vandervecken | 4: Aloha-Oe | 5: Cyrus
 
 * Erreur 1 : 60 secondes / Erreur 2 : 120 secondes / Erreur 3 : Game Over, retour au début)
 
@@ -69,8 +69,8 @@ _-"   .       '  +  .              .        ,//////0\ | /00HHHHHHHMMMMM
                ;;'  `;;' `;.`;;'.;' `;;'  `;;
               .;;._.;'`;.   `;;'   .;'`;._.;;.
             ;'      '`;;`   `;;'   ';;'`      `;
-           ;:     .:.  `;;. `--' .;;'  .:.     :;      À son bord, le savant dément, 
-            ;.   .:|:.     `;;;;'     .:|:.   .;       se prépare à soumettre votre monde à ses effroyables expériences.    
+           ;:     .:.  `;;. `--' .;;'  .:.     :;      À son bord, le savant dément,
+            ;.   .:|:.     `;;;;'     .:|:.   .;       se prépare à soumettre votre monde à ses effroyables expériences.
              `;  `:|:'    .;;'`;;.    `:|:'  ;'        Découvre l'identité du commandant et communique son nom à ton équipage.
               `;. `:'  .;;'.::::.`;;.  `:' .;'         >
                 `;._.;;' .:`::::':. `;;._.;'           
@@ -89,8 +89,8 @@ _-"   .       '  +  .              .        ,//////0\ | /00HHHHHHHMMMMM
 
               .+.
           _.-//_\\-._
-        .'.-' XII '-.'.         
-      /`.'*         *'.`\       
+        .'.-' XII '-.'.
+      /`.'*         *'.`\
      / /*        /    *\ \      ll n'y a plus un instant à perdre :
     | ;        _/       ; |     les autorités ont fait appel à la Guilde des Mercenaires de l'espace
     | |IX     (_)    III| |     pour mettre un terme aux sombres machinations de Cyrus.
@@ -124,11 +124,11 @@ _-"   .       '  +  .              .        ,//////0\ | /00HHHHHHHMMMMM
 (             )                 |  ,;;;;/;;;;;'      |        _.--~
  \          \/ \              ,  ;;;;;/;;;;;'       /(     .-~_..--~~~~~~~~~~
  \__         '  `       ,     ,;;;;;/;;;;;'    .   /  \   / /~
- /___________\'  |`._______ ,;;;;;;/;;;;;;'_______ /   : \/'/'    
+ /___________\'  |`._______ ,;;;;;;/;;;;;;'_______ /   : \/'/'
 
  Félicitation ! Tu as été promu "Mercenaire de l'espace".
  Tu vas devoir t'introduire dans le Vandervecken, un univers de pièges diaboliques, pour y affronter Cyrus et les créatures qui le protègent. 
- Quel équipements souhaite tu prendre? 
+ Acceptes-tu la mission ? 
  >
 
 // Étape 5 : height 11 https://asciinema.org/a/26115
@@ -137,7 +137,7 @@ _-"   .       '  +  .              .        ,//////0\ | /00HHHHHHHMMMMM
    ,-' ;  ! `-.
   / :  !  :  . \
  |_ ;   __:  ;  |
- )| .  :)(.  !  |    
+ )| .  :)(.  !  |
  |"    (##)  _  |    Tu arpentes la coursive et découvre deux portes. 
  |  :  ;`'  (_) (    Laquelle décide tu d'ouvrir ? 
  |  :  :  .     |    >
@@ -146,15 +146,15 @@ _-"   .       '  +  .              .        ,//////0\ | /00HHHHHHHMMMMM
  |" .  |  :  .  |
  |_____;----.___|
 
-> réponse au choix 
+> réponse au choix
 
 > La porte s'ouvre, Cyrus est aux commandes de la console de pilotage.
-> Que souhaites tu faire : 1: Établir un dialogue | 2: Lancer un attaque 
+> Que souhaites tu faire : 1: Établir un dialogue | 2: Lancer un attaque
 
-** if 1 : Oxiodà µPol@xi LoioééUnD !  
-** if 2 : Tu viens d'infliger des blessures à Cyrus. 
+** if 1 : Oxiodà µPol@xi LoioééUnD !
+** if 2 : Tu viens d'infliger des blessures à Cyrus.
 
-> Il réplique et te désarme. 
+> Il réplique et te désarme.
 > Démunis; tu décides d'appeler du renfort.
 > Quel est le nom du Mercenaire que tu souhaites soliciter  ?
 
@@ -187,7 +187,7 @@ https://asciinema.org/a/28404
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠻⣿⣿⡄⠈⠻⣿⣿⢿⣛⣩⠤⠒⠉⠁⠀⠀⠀⠀⠀⠉⠒⢤⡀⠉⠁⠀⠀⠀⠀⠀⢀⡿⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⢿⣤⣤⠴⠟⠋⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠑⠤⠀⠀⠀⠀⠀⢩⠇⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-> Saisis la commande de programmation.  
+> Saisis la commande de programmation.
 > sudo control spaceship Vandervecken
 
 ** commande réinitalisation
@@ -201,7 +201,7 @@ https://asciinema.org/a/28404
               \::.    /      Cyrus est neutralisé.
                '::. .'       Votre mission est désormais terminé.
                  ) (         Prochaine mission : Explorer Saturne
-               _.' '._.         .                     .       .           .   
+               _.' '._.         .                     .       .           .
               `"""""""`
 
           .                                            .
